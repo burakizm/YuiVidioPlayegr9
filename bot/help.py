@@ -10,10 +10,10 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 )
 async def help(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>Hi {message.from_user.first_name}!
+        f"""<b>Merhaba {message.from_user.first_name}!
 Setting up
-1) Add this Bot to your Group and Make it Admin 
-2) Add @YuiVideoPlayer to your Group 
+1) Botu ekleyip admin yapınız. 
+2) Asistanı ekleyiniz asistan hesabı @flackwardev de
 Commands
 =>> Vidio Playing 🎧
 - /stream : Reply to Video or File That You Want To stream In Vc.
@@ -28,7 +28,7 @@ Commands
             [
                 [
                     InlineKeyboardButton(
-                        "🎵 Support Chat", url="https://t.me/safothebot"
+                        "🎵 Support Chat", url="https://t.me/burakizm"
                     )
                 ]
             ]
